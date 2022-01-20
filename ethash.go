@@ -739,7 +739,7 @@ func (pow *Full) Turbo(on bool) {
 
 // ethash combines block verification with Light and
 // nonce searching with Full into a single proof of work.
-type Ethash struct {
+type ethash struct {
 	*Light
 	*Full
 }
